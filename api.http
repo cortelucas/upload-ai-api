@@ -1,0 +1,10 @@
+# @name home
+GET http://localhost:3333 HTTP/1.1
+
+###
+# @name get-prompts
+GET http://localhost:3333/prompts HTTP/1.1
+
+###
+# @name get-videos
+GET http://localhost:3333/videos HTTP/1.1
